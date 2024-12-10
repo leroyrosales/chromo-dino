@@ -1,3 +1,3 @@
 # Chrome Dino
 
-[https://chromo-dino.netlify.app/](A Chrome Dinosaur clone game made in Java.)
+[A Chrome Dinosaur clone game made in Java.](https://chromo-dino.netlify.app/)
