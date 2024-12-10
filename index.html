@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CheerpJ test</title>
+    <script src="https://cjrtnc.leaningtech.com/3.0/cj3loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.4.0"></script>
+    <style>
+      body {
+        background-color: #4E3B31;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+      #cheerpjDisplay {
+        padding-top: 10rem;
+      }
+      a { color: #fff; }
+    </style>
+  </head>
+  <body>
+    <script>
+      (async function () {
+        await cheerpjInit();
+        cheerpjCreateDisplay(750, 275);
+        await cheerpjRunJar(
+          
+            "/app/ChromeDino.jar"
+        );
+      })();
+    </script>
+    <figure>
+      <audio controls src="Aldous Ichnite - Raptor's Reverie.mp3" autoplay></audio><br/>
+      <a href="https://freemusicarchive.org/music/aldous-ichnite/low-fidelity-dinosaur/raptors-reverie/">Aldous Ichnite - Raptor's Reverie.mp3</a>
+    </figure>
+    <h1>Chrome Dino!</h1>
+  </body>
+</html>
